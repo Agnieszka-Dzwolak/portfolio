@@ -1,28 +1,10 @@
-# Name of project
+# Project Portfolio
 
-> A longer description
-
-## Table of contents
-
-- [Name of project](#name-of-project)
-  - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
-  - [Screenshots](#screenshots)
-  - [Technologies](#technologies)
-  - [Setup](#setup)
-  - [Code Examples](#code-examples)
-  - [Features](#features)
-  - [Status](#status)
-  - [Inspiration](#inspiration)
-  - [Contact](#contact)
-  - [Instructions for use](#instructions-for-use)
-  - [Code Quality Checks](#code-quality-checks)
-  - [Continuous Integration (CI)](#continuous-integration-ci)
-  - [Repo Setup](#repo-setup)
+> Agnieszka's Portfolio Website
 
 ## General info
 
-> A short description
+> This is my portfolio website. I create it to improve my HTML and CSS skills.
 
 ## Screenshots
 
@@ -30,15 +12,17 @@
 
 ## Technologies
 
-- Node 14.16.0
+- Node 18.16.0
 - VSC code
+- HTML5
+- CSS3
+- Git
 - JavaScript
-- ...
-- ...
 
 ## Setup
 
-- `npm run start`
+- clone the repo
+- `npm i`
 
 ## Code Examples
 
@@ -47,30 +31,17 @@
 console.log("Hello World");
 ```
 
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
-
 ## Status
 
 Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project inspired by my imagination
 
 ## Contact
 
-By [Name]
+[Agnieszka](https://github.com/Agnieszka-Dzwolak)
 
 ## Instructions for use
 

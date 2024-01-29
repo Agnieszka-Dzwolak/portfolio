@@ -1,30 +1,33 @@
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
+## Agnieszka's portfolio page
 
-## Must-Haves
+### Must-Haves
 
-> these are necessary for basic usability
+- [ ] As a user I want to see a navigation
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+  - navigation will allow to easily navigate the entire page. Navigation is at
+    the top of the page
 
-## Should-Haves
+- [ ] As a user I can read the title of the page
 
-> these will complete the user experience, but are not necessary
+  - there is a title with the general info on the left side of the page and a
+    photo on the right side
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user I want to see information about skills and work experience
 
-## Could-Haves
+  - section skills will be below introduction
 
-> would be really cool ... if there's time
+- [ ] As a user I want to see different projects that Agnieszka created.
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user I want to see the footer with some information about who created
+      this project
+
+### Should Haves
+
+- [ ] As a user I want to see a logo of the project on the left top side of the
+      page.
+
+- [ ] As a user I want the website to be interactive and responsive
+
+  - the site will contain interesting design details that will be user-friendly
