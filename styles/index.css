@@ -1,1 +1,96 @@
-@import url("./something.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: poppins, sans-serif;
+}
+
+body {
+  background-color: white;
+  color: #071952;
+  margin-top: 100px;
+}
+
+/* navbar starts */
+
+header {
+  position: fixed;
+  background-color: #f2f7a1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  box-shadow: 0 1px 4px #96a3b14d;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 100px;
+  border-bottom: 1px solid #071952;
+}
+
+.navbar a {
+  font-size: 18px;
+  color: #071952;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+/* home starts */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.button-contact {
+  background-color: transparent;
+  border: solid 2px #071952;
+  border-radius: 10px;
+  color: #071952;
+  padding: 10px 40px;
+  margin-top: 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.social-media img {
+  height: 50px;
+  margin-top: 10px;
+}
+
+.image-me {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-right: 20px;
+}
+
+.aga-img:hover {
+  transform: scale(0.8) scale(1);
+}
