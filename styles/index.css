@@ -1,25 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --primary-color: #071952;
+  --yellow-color: #f2f7a1;
+  --blue-darker: #088395;
+  --blue-lighter: #35a29f;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: poppins, sans-serif;
+
+  /* font-family: poppins, sans-serif; */
+  font-family: "Roboto Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: white;
-  color: #071952;
-  margin-top: 100px;
+  color: var(--primary-color);
+  padding-top: 50px;
+  max-width: 90%;
 }
 
 /* navbar starts */
 
 header {
   position: fixed;
-  background-color: #f2f7a1;
+  background-color: var(--yellow-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,12 +44,12 @@ header {
   left: 0;
   width: 100%;
   padding: 15px 100px;
-  border-bottom: 1px solid #071952;
+  border-bottom: 3px solid var(--primary-color);
 }
 
 .navbar a {
-  font-size: 18px;
-  color: #071952;
+  font-size: 20px;
+  color: var(--primary-color);
   font-weight: 500;
   text-decoration: none;
   margin-left: 40px;
@@ -54,26 +69,34 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 .content {
   margin-right: 40px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 40px;
+}
+
+span {
+  color: var(--blue-darker);
+  font-size: 45px;
+  text-shadow: 4px 4px 4px black;
 }
 
 p {
-  font-size: 30px;
+  font-size: 18px;
+  margin-top: 15px;
 }
 
 .button-contact {
   background-color: transparent;
-  border: solid 2px #071952;
+  border: solid 2px var(--primary-color);
   border-radius: 10px;
-  color: #071952;
+  color: var(--primary-color);
   padding: 10px 40px;
   margin-top: 40px;
   font-size: 18px;
@@ -88,9 +111,77 @@ p {
 .image-me {
   display: grid;
   grid-template-columns: auto auto;
-  margin-right: 20px;
 }
 
 .aga-img:hover {
   transform: scale(0.8) scale(1);
+}
+
+/* about-me starts */
+
+.about {
+  padding-top: 100px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-container {
+  background-color: var(--yellow-color);
+  border: var(--primary-color) 5px solid;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px 30px;
+}
+
+.about1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.about2 {
+  margin-bottom: 2rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 160px 160px 160px;
+  background-color: var(--blue-lighter);
+  border: var(--primary-color) 5px solid;
+  border-radius: 10px;
+  gap: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  padding: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+.skills-logo {
+  display: flex;
+  flex-direction: column;
+  border: #071952 solid 3px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.skills-logo img {
+  width: 70px;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: black;
 }

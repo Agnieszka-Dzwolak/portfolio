@@ -1,62 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Portfolio | Agnieszka Dzwolak</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles/index.css" />
-  <title>Portfolio | Agnieszka Dzwolak</title>
+    <link href="./styles/index.css" rel="stylesheet" />
+  </head>
 
-  <link href="./styles/index.css" rel="stylesheet" />
-</head>
+  <body>
+    <!-- navbar starts -->
 
-<body>
-  <!-- navbar starts -->
+    <header class="header">
+      <a href="#" class="logo"
+        ><img src="./public/img/logo1.png" alt="logo"
+      /></a>
 
-  <header class="header">
-    <a href="#" class="logo"><img src="./public/img/logo1.png" alt="logo" /></a>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">My Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-    <nav class="navbar">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#projects">My Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <!-- navbar ends -->
 
-  <!-- navbar ends -->
+    <!-- home starts -->
+    <section class="home" id="home">
+      <div class="content">
+        <h2>Hi There,<br />I'm <span>A</span>gnieszka <br />web developer</h2>
+        <p>Junior Front-End Developer</p>
 
-  <!-- home starts -->
-  <section class="home">
-    <div class="content">
-      <h2>Hi There,<br />I'm Agnieszka <br />web developer</h2>
-      <p>Front End Developer</p>
-
-      <div class="social-media">
-        <a href="https://www.linkedin.com/in/agnieszka-dzwolak-938963185/"><img src="./public/img/linkedin.png"
-            alt="linkedin" /></a>
-        <a href="https://github.com/Agnieszka-Dzwolak"><img src="./public/img/github1.png" alt="github" /></a>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/agnieszka-dzwolak-938963185/"
+            target="_blank"
+            ><img src="./public/img/linkedin.png" alt="linkedin"
+          /></a>
+          <a href="https://github.com/Agnieszka-Dzwolak" target="_blank"
+            ><img src="./public/img/github1.png" alt="github"
+          /></a>
+        </div>
+        <button class="button-contact" type="button">Contact me!</button>
       </div>
-      <button class="button-contact" type="button">Contact me!</button>
-    </div>
 
-    <div class="image-me">
-      <div class="aga-img">
-        <img src="./public/img/aga1.png" alt="aga-img" />
+      <div class="image-me">
+        <div class="aga-img">
+          <img src="./public/img/aga1.png" alt="aga-img" />
+        </div>
+        <div class="aga-img">
+          <img src="./public/img/aga2.png" alt="aga-img" />
+        </div>
+        <div class="aga-img">
+          <img src="./public/img/aga3.png" alt="aga-img" />
+        </div>
+        <div class="aga-img">
+          <img src="./public/img/aga4.png" alt="aga-img" />
+        </div>
       </div>
-      <div class="aga-img">
-        <img src="./public/img/aga2.png" alt="aga-img" />
-      </div>
-      <div class="aga-img">
-        <img src="./public/img/aga3.png" alt="aga-img" />
-      </div>
-      <div class="aga-img">
-        <img src="./public/img/aga4.png" alt="aga-img" />
-      </div>
-    </div>
-  </section>
-  <!-- home ends -->
-</body>
+    </section>
+    <!-- home ends -->
 
+    <!-- about starts -->
+
+    <section class="about" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+      <div class="about-container">
+        <p class="about1">Hello there! 👋 I'm Agnieszka</p>
+        <p class="about1">Junior Front-End Developer</p>
+
+        <p class="about2">
+          I am a junior front-end developer based in the vibrant city of
+          Brussels, Belgium.
+        </p>
+        <p class="about2">
+          I come from Poland, where I completed my master's degree in Land and
+          Real Estate Management. My journey, however, took an exciting turn as
+          I accumulated 6 years of valuable experience in the dynamic field of
+          Logistics. Now, I've set my sights on an even more thrilling adventure
+          in Web Development. 🌐
+        </p>
+        <p class="about2">
+          The prospect of creating digital landscapes and contributing to the
+          ever-evolving world of technology fills me with excitement and
+          motivation. I am genuinely passionate about enhancing my coding
+          skills, channeling my creativity into the development of applications
+          and websites. Always hungry for knowledge, I strive to stay at the
+          forefront of emerging technologies. 🚀
+        </p>
+      </div>
+
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-container">
+        <div class="skills-logo">
+          <img src="./public/img/html5-logo.png" alt="html" />
+          <p class="logo-name">HTML5</p>
+        </div>
+        <div class="skills-logo">
+          <img src="./public/img/css-logo.png" alt="css" />
+          <p class="logo-name">CSS3</p>
+        </div>
+
+        <div class="skills-logo">
+          <img src="./public/img/javascript-logo.png" alt="js" />
+          <p class="logo-name">JavaScript</p>
+        </div>
+        <div class="skills-logo">
+          <img src="./public/img/git-logo.png" alt="git" />
+          <p class="logo-name">Git</p>
+        </div>
+        <div class="skills-logo">
+          <img src="./public/img/github-logo.png" alt="github" />
+          <p class="logo-name">GitHub</p>
+        </div>
+        <div class="skills-logo">
+          <img src="./public/img/react-logo.png" alt="react" />
+          <p class="logo-name">React</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about ends -->
+  </body>
 </html>
