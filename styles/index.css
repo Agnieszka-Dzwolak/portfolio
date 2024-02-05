@@ -7,9 +7,20 @@
   --yellow-color: #f2f7a1;
   --blue-darker: #088395;
   --blue-lighter: #35a29f;
+  --black-background: #202020;
+  --new-black: #21251f;
+  --new-green: #c8f560;
+  --new-gray: #4e515c;
+  --new-purple: #7862f8;
+  --new-blue: #66bfbf;
+  --new-light-blue: #eaf6f6;
+  --new-white: #fff;
+  --new-red: #ff0063;
 }
 
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,16 +36,24 @@ html {
 
 body {
   background-color: white;
-  color: var(--primary-color);
+  color: var(--new-black);
   padding-top: 50px;
-  max-width: 90%;
+  min-height: 100vh;
 }
 
 /* navbar starts */
 
+h2 {
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+  color: var(--new-black);
+  padding-top: 100px;
+}
+
 header {
   position: fixed;
-  background-color: var(--yellow-color);
+  background-color: var(--new-blue);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,12 +63,12 @@ header {
   left: 0;
   width: 100%;
   padding: 15px 100px;
-  border-bottom: 3px solid var(--primary-color);
+  border-bottom: 3px solid var(--new-red);
 }
 
 .navbar a {
-  font-size: 20px;
-  color: var(--primary-color);
+  font-size: 24px;
+  color: var(--new-black);
   font-weight: 500;
   text-decoration: none;
   margin-left: 40px;
@@ -57,6 +76,7 @@ header {
 
 .navbar a:hover {
   text-decoration: underline;
+  color: var(--new-red);
 }
 
 .logo img {
@@ -74,15 +94,10 @@ header {
 
 .content {
   margin-right: 40px;
-  margin-left: 40px;
-}
-
-h2 {
-  font-size: 40px;
 }
 
 span {
-  color: var(--blue-darker);
+  color: var(--new-red);
   font-size: 45px;
   text-shadow: 4px 4px 4px black;
 }
@@ -94,9 +109,10 @@ p {
 
 .button-contact {
   background-color: transparent;
-  border: solid 2px var(--primary-color);
+  border: solid 5px var(--new-red);
   border-radius: 10px;
-  color: var(--primary-color);
+  color: var(--new-red);
+  font-weight: 700;
   padding: 10px 40px;
   margin-top: 40px;
   font-size: 18px;
@@ -111,6 +127,8 @@ p {
 .image-me {
   display: grid;
   grid-template-columns: auto auto;
+  width: 50%;
+  height: auto;
 }
 
 .aga-img:hover {
@@ -120,21 +138,25 @@ p {
 /* about-me starts */
 
 .about {
-  padding-top: 100px;
+  background-color: var(--black-background);
+  border-top: 3px solid var(--new-red);
+  border-bottom: 3px solid var(--new-red);
 }
 
 .heading {
+  font-size: 40px;
   text-align: center;
   margin-bottom: 30px;
+  color: whitesmoke;
 }
 
 .about-container {
-  background-color: var(--yellow-color);
-  border: var(--primary-color) 5px solid;
+  background-color: var(--new-light-blue);
+  border: var(--new-black) 5px solid;
   border-radius: 10px;
-  margin-left: 200px;
-  margin-right: 200px;
   padding: 20px 30px;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .about1 {
@@ -147,19 +169,20 @@ p {
   margin-bottom: 2rem;
 }
 
+/* skills starts */
+
 .skills-container {
   display: grid;
   grid-template-columns: 160px 160px 160px;
-  background-color: var(--blue-lighter);
-  border: var(--primary-color) 5px solid;
+  background-color: var(--new-blue);
+  border: var(--new-black) 5px solid;
   border-radius: 10px;
   gap: 30px;
-  margin-right: 100px;
-  margin-left: 100px;
   margin-bottom: 100px;
   padding: 30px;
-  justify-items: center;
-  align-items: center;
+  justify-content: center;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .skills-logo {
@@ -184,4 +207,85 @@ p {
   justify-content: center;
   font-weight: 700;
   color: black;
+}
+
+/* contact starts */
+
+.contact-all {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 80px;
+}
+
+#contact {
+  color: black;
+  margin-top: 100px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: var(--new-light-blue);
+  font-size: 16px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: var(--new-light-blue);
+  font-size: 16px;
+}
+
+.button-submit-form {
+  width: 20%;
+  background-color: var(--new-black);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 6px 6px 10px grey;
+}
+
+.submit-button {
+  text-align: right;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--blue-darker);
+}
+
+.contact-form {
+  background-color: #ededed;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 6px 6px 10px grey;
+}
+
+/* footer starts */
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--new-blue);
+  padding: 15px 100px;
+  border-top: 3px solid var(--new-red);
+  width: 100%;
 }
