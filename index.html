@@ -1,168 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Portfolio | Agnieszka Dzwolak</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles/index.css" />
-  <title>Portfolio | Agnieszka Dzwolak</title>
+    <link href="./styles/index.css" rel="stylesheet" />
+  </head>
 
-  <link href="./styles/index.css" rel="stylesheet" />
-</head>
+  <body>
+    <!-- navbar starts -->
 
-<body>
-  <!-- navbar starts -->
+    <header class="header container">
+      <a href="#" class="logo"
+        ><img src="./public/img/logo1.png" alt="logo"
+      /></a>
 
-  <header class="header">
-    <a href="#" class="logo"><img src="./public/img/logo1.png" alt="logo" /></a>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-    <nav class="navbar">
-      <a href="#">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">My Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <!-- navbar ends -->
 
-  <!-- navbar ends -->
+    <!-- home starts -->
+    <section class="home container" id="home">
+      <div class="home-content">
+        <h2 class="home-h2">
+          Hi There,<br />I'm Agnieszka <br />web developer
+        </h2>
+        <p>Junior Front-End Developer</p>
 
-  <!-- home starts -->
-  <section class="home" id="home">
-    <div class="content">
-      <h2>Hi There,<br />I'm <span>A</span>gnieszka <br />web developer</h2>
-      <p>Junior Front-End Developer</p>
-
-      <div class="social-media">
-        <a href="https://www.linkedin.com/in/agnieszka-dzwolak-938963185/" target="_blank"><img
-            src="./public/img/linkedin.png" alt="linkedin" /></a>
-        <a href="https://github.com/Agnieszka-Dzwolak" target="_blank"><img src="./public/img/github1.png"
-            alt="github" /></a>
-      </div>
-      <button class="button-contact" type="button">Contact me!</button>
-    </div>
-
-    <div class="image-me">
-      <div class="aga-img">
-        <img src="./public/img/aga1.png" alt="aga-img" width="382px" height="510" />
-      </div>
-      <div class="aga-img">
-        <img src="./public/img/aga2.png" alt="aga-img" width="382px" height="510" />
-      </div>
-      <div class="aga-img">
-        <img src="./public/img/aga3.png" alt="aga-img" width="382px" height="510" />
-      </div>
-      <div class="aga-img">
-        <img src="./public/img/aga4.png" alt="aga-img" width="382px" height="510" />
-      </div>
-    </div>
-  </section>
-  <!-- home ends -->
-
-  <!-- about starts -->
-
-  <section class="about" id="about">
-    <h2 class="heading">About <span>Me</span></h2>
-    <div class="about-container">
-      <p class="about1">Hello there! 👋 I'm Agnieszka</p>
-      <p class="about1">Junior Front-End Developer</p>
-
-      <p class="about2">
-        I am a junior front-end developer based in the vibrant city of
-        Brussels, Belgium.
-      </p>
-      <p class="about2">
-        I come from Poland, where I completed my master's degree in Land and
-        Real Estate Management. My journey, however, took an exciting turn as
-        I accumulated 6 years of valuable experience in the dynamic field of
-        Logistics. Now, I've set my sights on an even more thrilling adventure
-        in Web Development. 🌐
-      </p>
-      <p class="about2">
-        The prospect of creating digital landscapes and contributing to the
-        ever-evolving world of technology fills me with excitement and
-        motivation. I am genuinely passionate about enhancing my coding
-        skills, channeling my creativity into the development of applications
-        and websites. Always hungry for knowledge, I strive to stay at the
-        forefront of emerging technologies. 🚀
-      </p>
-    </div>
-
-    <!-- skills starts -->
-
-    <h2 class="heading" id="skills">My <span>Skills</span></h2>
-    <div class="skills-container">
-      <div class="skills-logo">
-        <img src="./public/img/html5-logo.png" alt="html" />
-        <p class="logo-name">HTML5</p>
-      </div>
-      <div class="skills-logo">
-        <img src="./public/img/css-logo.png" alt="css" />
-        <p class="logo-name">CSS3</p>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/agnieszka-dzwolak-938963185/"
+            target="_blank"
+            ><img src="./public/img/linkedin.png" alt="linkedin"
+          /></a>
+          <a href="https://github.com/Agnieszka-Dzwolak" target="_blank"
+            ><img src="./public/img/github1.png" alt="github"
+          /></a>
+        </div>
+        <a href="#contact"
+          ><button class="button-contact" type="button">Contact me!</button></a
+        >
       </div>
 
-      <div class="skills-logo">
-        <img src="./public/img/javascript-logo.png" alt="js" />
-        <p class="logo-name">JavaScript</p>
+      <div class="image-me">
+        <div class="aga-img">
+          <img
+            src="./public/img/aga1.png"
+            alt="aga-img"
+            width="382px"
+            height="510"
+          />
+        </div>
+        <div class="aga-img">
+          <img
+            src="./public/img/aga2.png"
+            alt="aga-img"
+            width="382px"
+            height="510"
+          />
+        </div>
+        <div class="aga-img">
+          <img
+            src="./public/img/aga3.png"
+            alt="aga-img"
+            width="382px"
+            height="510"
+          />
+        </div>
+        <div class="aga-img">
+          <img
+            src="./public/img/aga4.png"
+            alt="aga-img"
+            width="382px"
+            height="510"
+          />
+        </div>
       </div>
-      <div class="skills-logo">
-        <img src="./public/img/git-logo.png" alt="git" />
-        <p class="logo-name">Git</p>
+    </section>
+    <!-- home ends -->
+
+    <!-- about starts -->
+
+    <section class="about container" id="about">
+      <h2 class="heading">About <span class="span-header-pink">Me</span></h2>
+      <div class="about-container">
+        <p class="about1">
+          Hello there! 👋<br />
+          I'm Agnieszka
+        </p>
+        <div class="container-typed">
+          <div class="typed-out">Junior Front-End Developer.</div>
+        </div>
+
+        <p class="about2">
+          I am a junior front-end developer based in the vibrant city of
+          Brussels, Belgium.
+        </p>
+        <p class="about2">
+          I come from Poland, where I completed my master's degree in Land and
+          Real Estate Management. My journey, however, took an exciting turn as
+          I accumulated 6 years of valuable experience in the dynamic field of
+          Logistics. Now, I've set my sights on an even more thrilling adventure
+          in Web Development. 🌐
+        </p>
+        <p class="about2">
+          The prospect of creating digital landscapes and contributing to the
+          ever-evolving world of technology fills me with excitement and
+          motivation. I am genuinely passionate about enhancing my coding
+          skills, channeling my creativity into the development of applications
+          and websites. Always hungry for knowledge, I strive to stay at the
+          forefront of emerging technologies. 🚀
+        </p>
       </div>
-      <div class="skills-logo">
-        <img src="./public/img/github-logo.png" alt="github" />
-        <p class="logo-name">GitHub</p>
+
+      <!-- skills starts -->
+
+      <h2 class="heading" id="skills">
+        My <span class="span-header-pink">Skills</span>
+      </h2>
+      <div class="skills-container">
+        <div class="skills-logo">
+          <img src="./public/img/html5-logo.png" alt="html" />
+          <p class="logo-name">HTML5</p>
+        </div>
+        <div class="skills-logo">
+          <img src="./public/img/css-logo.png" alt="css" />
+          <p class="logo-name">CSS3</p>
+        </div>
+
+        <div class="skills-logo">
+          <img src="./public/img/javascript-logo.png" alt="js" />
+          <p class="logo-name">JavaScript</p>
+        </div>
+        <div class="skills-logo">
+          <img src="./public/img/git-logo.png" alt="git" />
+          <p class="logo-name">Git</p>
+        </div>
+        <div class="skills-logo">
+          <img src="./public/img/github-logo.png" alt="github" />
+          <p class="logo-name">GitHub</p>
+        </div>
+        <div class="skills-logo">
+          <img src="./public/img/react-logo.png" alt="react" />
+          <p class="logo-name">React</p>
+        </div>
       </div>
-      <div class="skills-logo">
-        <img src="./public/img/react-logo.png" alt="react" />
-        <p class="logo-name">React</p>
+    </section>
+    <!-- skills ends -->
+    <!-- contact starts -->
+    <section class="contact container">
+      <h2 class="heading" id="contact">
+        Get in <span class="span-header-pink">Touch</span>
+      </h2>
+      <div class="contact-all">
+        <div class="contact-form">
+          <form>
+            <label for="name"
+              ><img src="./public/img/user.png" alt="name"
+            /></label>
+            <input type="text" name="name" id="name" placeholder="Name" />
+
+            <label for="email"
+              ><img src="./public/img/email.png" alt="email"
+            /></label>
+            <input type="email" name="email" id="email" placeholder="Email" />
+
+            <label for="phone"
+              ><img src="./public/img/phone-call.png" alt="phone"
+            /></label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone" />
+
+            <label for="message"
+              ><img src="./public/img/chat.png" alt="message"
+            /></label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
+
+            <div class="submit-button">
+              <!--<input type="submit" value="Submit" />-->
+              <button type="submit" class="button-submit-form">
+                Submit <img src="./public/img/send.png" alt="message" />
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- skills ends -->
-  <!-- contact starts -->
-  <section class="contact">
-    <h2 class="heading" id="contact">Get in <span>Touch</span></h2>
-    <div class="contact-all">
-      <div class="contact-me-img">
-        <img src="./public/img/contact-me.png" alt="contact-me" width="402" height="401" />
+    </section>
+
+    <!-- contact ends -->
+    <!-- footer starts -->
+    <footer>
+      <div class="container-footer container">
+        <p class="footer-paragraph">
+          Designed with ❤️ by
+          <a class="footer-link-aga" href="https://github.com/Agnieszka-Dzwolak"
+            >Agnieszka Dzwolak</a
+          >
+        </p>
+        <p class="footer-paragraph">&copy;2024. All rights reserved</p>
       </div>
-      <div class="contact-form">
-        <form>
-          <label for="name"><img src="./public/img/user.png" alt="name" /></label>
-          <input type="text" name="name" id="name" placeholder="Name" />
-
-          <label for="email"><img src="./public/img/email.png" alt="email" /></label>
-          <input type="email" name="email" id="email" placeholder="Email" />
-
-          <label for="phone"><img src="./public/img/phone-call.png" alt="phone" /></label>
-          <input type="tel" name="phone" id="phone" placeholder="Phone" />
-
-          <label for="message"><img src="./public/img/chat.png" alt="message" /></label>
-          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-
-          <div class="submit-button">
-            <!--<input type="submit" value="Submit" />-->
-            <button type="submit" class="button-submit-form">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- contact ends -->
-  <!-- footer starts -->
-  <footer>
-    <div class="container-footer">
-      <a href="#" class="logo"><img src="./public/img/logo1.png" alt="logo" /></a>
-      <p>
-        Designed with ❤️ by
-        <a href="https://github.com/Agnieszka-Dzwolak">Agnieszka Dzwolak</a>
-      </p>
-      <p>&copy;2024. All rights reserved</p>
-    </div>
-  </footer>
-  <!-- footer ends -->
-</body>
-
+    </footer>
+    <!-- footer ends -->
+  </body>
 </html>

@@ -8,7 +8,7 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./planning/portfolio-first-page.png)
 
 ## Technologies
 
@@ -26,14 +26,23 @@
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<footer>
+  <div class="container-footer container">
+    <p class="footer-paragraph">
+      Designed with ❤️ by
+      <a class="footer-link-aga" href="https://github.com/Agnieszka-Dzwolak"
+        >Agnieszka Dzwolak</a
+      >
+    </p>
+    <p class="footer-paragraph">&copy;2024. All rights reserved</p>
+  </div>
+</footer>
 ```
 
 ## Status
 
-Project is: _in progress_
+Project is: _done_
 
 ## Inspiration
 
